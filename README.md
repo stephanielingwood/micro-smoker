@@ -1,2 +1,6 @@
 # micro-smoker
-a functional testing micro service that tests the whole aye0aye application e2e
+
+This is a smoke testing micro service containing functional tests for micro-www and micro-api.
+
+Note - It is necessary to specify the following env vars (in shippable.yml): WWW_URL and TOKEN
+
