@@ -6,7 +6,7 @@ node_js:
 env:
   global:
     - XUNIT_FILE=./shippable/testresults/result.xml
-    - API_URL=http://demoapilb-17886322.us-east-1.elb.amazonaws.com/
+    - API_URL=http://demoapilb-1069783253.us-east-1.elb.amazonaws.com/
 
 before_install:
     - node --version
