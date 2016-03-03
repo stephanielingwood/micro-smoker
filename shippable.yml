@@ -14,4 +14,4 @@ build:
   pre_ci:
     - node --version
   ci:
-    - curl -X POST -H 'Content-Type: application/json' -H 'x-api:$NOUVOLA_API_KEY' https://divecloud.nouvola.com/api/v1/plans/$NOUVOLA_PLAN_ID/run
+    - "curl -X POST -H 'Content-Type: application/json' -H 'x-api:$NOUVOLA_API_KEY' https://divecloud.nouvola.com/api/v1/plans/$NOUVOLA_PLAN_ID/run"
